@@ -1,18 +1,19 @@
 <?php
 
  /**
- * Plugin Name:       Pine CodePen List
- * Plugin URI:        https://github.com/thepinecode/wp-codepen-list
- * Description:       A simple way to inegrate your pens or posts with WordPress.
- * Version:           1.0.0
- * Author:            Gergő D. Nagy
- * Author URI:        http://pineco.de
- * License:           MIT
- * License URI:       https://opensource.org/licenses/MIT
- * Text Domain:       pine-codepen-list
- * Domain Path:       /languages/
- */
+  * Plugin Name:       Pine CodePen List
+  * Plugin URI:        https://github.com/thepinecode/wp-codepen-list
+  * Description:       A simple way to inegrate your pens or posts with WordPress.
+  * Version:           1.0.0
+  * Author:            Gergő D. Nagy
+  * Author URI:        http://pineco.de
+  * License:           MIT
+  * License URI:       https://opensource.org/licenses/MIT
+  * Text Domain:       pine-codepen-list
+  * Domain Path:       /languages/
+  */
 
+// Check if WPINC is present
 if (! defined('WPINC')) {
     wp_die();
 }
@@ -38,7 +39,7 @@ if (! function_exists('pine_base_url')) {
 }
 
 // Pull in the autoloader
-require_once pine_base_path('includes/misc/autoloader.php');
+require_once pine_base_path('bootstrap/autoloader.php');
 
 // Boot up the servicies
 Pine\CodePenList\CodePenList::boot();

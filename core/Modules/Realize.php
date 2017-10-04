@@ -30,6 +30,6 @@ class Realize extends Module
      */
     protected static function buildItem($item, $atts)
     {
-        include pine_base_path('includes/templates/list.php');
+        include pine_base_path('templates/list.php');
     }
 }
