@@ -3,7 +3,7 @@
  /**
   * Plugin Name:       Pine CodePen List
   * Plugin URI:        https://github.com/thepinecode/wp-codepen-list
-  * Description:       A simple way to inegrate your pens or posts with WordPress.
+  * Description:       A simple way to integrate your pens or posts with WordPress.
   * Version:           1.0.0
   * Author:            Gergő D. Nagy
   * Author URI:        http://pineco.de
