@@ -1,17 +1,17 @@
 <?php
 
- /**
-  * Plugin Name:       Pine CodePen List
-  * Plugin URI:        https://github.com/thepinecode/wp-codepen-list
-  * Description:       A simple way to integrate your pens or posts with WordPress.
-  * Version:           1.0.0
-  * Author:            Gergő D. Nagy
-  * Author URI:        http://pineco.de
-  * License:           MIT
-  * License URI:       https://opensource.org/licenses/MIT
-  * Text Domain:       pine-codepen-list
-  * Domain Path:       /languages/
-  */
+/**
+ * Plugin Name:       Pine CodePen List
+ * Plugin URI:        https://github.com/thepinecode/wp-codepen-list
+ * Description:       A simple way to integrate your pens or posts with WordPress.
+ * Version:           1.0.0
+ * Author:            Gergő D. Nagy
+ * Author URI:        http://pineco.de
+ * License:           MIT
+ * License URI:       https://opensource.org/licenses/MIT
+ * Text Domain:       pine-codepen-list
+ * Domain Path:       /languages/
+ */
 
 // Check if WPINC is present
 if (! defined('WPINC')) {
